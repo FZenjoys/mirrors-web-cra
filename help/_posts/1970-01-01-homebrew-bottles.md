@@ -14,17 +14,7 @@ export HOMEBREW_BOTTLE_DOMAIN=https://{{ site.hostname }}/homebrew-bottles
 ```
 
 ### 长期替换
-
-如果你使用 bash:
-
 ```bash
 echo 'export HOMEBREW_BOTTLE_DOMAIN=https://{{ site.hostname }}/homebrew-bottles' >> ~/.bash_profile
 source ~/.bash_profile
-```
-
-如果你使用 zsh:
-
-```zsh
-echo 'export HOMEBREW_BOTTLE_DOMAIN=https://{{ site.hostname }}/homebrew-bottles' >> ~/.zprofile
-source ~/.zprofile
 ```

@@ -11,10 +11,14 @@ URL: http://alvarez.is
 
 ################################################################# */
 
-$color_thu_purple_dark: #C353D3;
+$color_bg_dark: #222;
+$color_thu_purple: #f39655;
+$color_thu_purple_dark: #f39655;
 $color_light_grey: #888;
 $color_grey_dark: #aaa;
-$color_primary_light: #d8aff6;
+$color_primary: $color_thu_purple;
+$color_primary_dark: $color_thu_purple_dark;
+$color_primary_light: #FFC49B;
 $color_primary_rgb: 92,48,125;
 $color_secondary_dark: #ddd;
 $color_link_dark: #6793cf;
@@ -33,7 +37,7 @@ $color_link: $color_link_dark;
 $color_navbar_bg: black;
 $color_row_hover: $color_row_hover_dark;
 {% else %}
-$color_thu_purple: #82318E;
+$color_thu_purple: #f39655;
 $color_grey: #555;
 $color_secondary: #384452;
 $color_link: #088acb;

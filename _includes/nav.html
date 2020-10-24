@@ -43,12 +43,11 @@
     <div class="{% unless page.legacy %}navbar-collapse collapse {% endunless %}navbar-right">
       <ul class="nav navbar-nav" role="menubar">
         {% unless site.hide_navbar %}
-        <li role="none"><a role="menuitem" href="{{ site.homelink }}">HOME</a></li>
-        <li role="none"><a role="menuitem" href="https://tuna.moe/events/">EVENTS</a></li>
-        <li role="none"><a role="menuitem" href="https://tuna.moe/blog/">BLOG</a></li>
-        <li role="none"><a role="menuitem" href="https://tuna.moe/feed.xml">RSS</a></li>
-        <li role="none"><a role="menuitem" href="https://podcast.tuna.moe/">PODCAST</a></li>
-        <li role="none" class="active"><a role="menuitem" aria-checked="true" href="{{ site.url }}">MIRRORS</a></li>
+				<li><a href="https://cra.moe/" target="_blank">HOME</a></li>
+				<li class="active"><a href="https://mirrors.cra.moe/">MIRRORS</a></li>
+				<li><a href="https://blog.sustcra.com/" target="_blank">BLOG</a></li>
+				<li><a href="https://mirrors.sustech.rocks" target="_blank">HPC-Mirror</a></li>
+				<li><a href="http://cse.sustech.edu.cn/" target="_blank">SUSTech-CSE</a></li>
         {% endunless %}
       </ul>
     </div><!--/.nav-collapse -->
